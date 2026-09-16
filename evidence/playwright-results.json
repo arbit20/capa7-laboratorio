@@ -1,0 +1,3405 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\SistemasComunicacion\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\SistemasComunicacion\\playwright.config.ts",
+    "rootDir": "C:/SistemasComunicacion/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/SistemasComunicacion/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chrome-1366x768",
+        "name": "chrome-1366x768",
+        "testDir": "C:/SistemasComunicacion/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/SistemasComunicacion/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chrome-1920x1080",
+        "name": "chrome-1920x1080",
+        "testDir": "C:/SistemasComunicacion/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/SistemasComunicacion/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "edge-1366x768",
+        "name": "edge-1366x768",
+        "testDir": "C:/SistemasComunicacion/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/SistemasComunicacion/evidence/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "edge-1920x1080",
+        "name": "edge-1920x1080",
+        "testDir": "C:/SistemasComunicacion/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "evidence/playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": {
+      "command": "npm run demo",
+      "url": "http://127.0.0.1:4173/__health",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "e2e.spec.ts",
+      "file": "e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "01 · laboratorio inicial legible sin errores ni desbordamiento",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1982,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:44.839Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "initial",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-chrome-1366x768\\attachments\\initial-4d034d5bda8d3ced7df3211f01d47060092c4241.png"
+                    },
+                    {
+                      "name": "01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-chrome-1366x768\\attachments\\01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento-ef32d04289947909e1cc1eec48fd35eb41b7e3f7.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-e3603cc978bf2ee973f2",
+          "file": "e2e.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "02 · DNS resuelve y HTTP entrega una página real",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5356,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:44.840Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "web",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-chrome-1366x768\\attachments\\web-95ee50108f0780a9e7ba4d49b099cfb82ca9d30b.png"
+                    },
+                    {
+                      "name": "02-dns-resuelve-y-http-entrega-una-pagina-real",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-chrome-1366x768\\attachments\\02-dns-resuelve-y-http-entrega-una-pagina-real-78d50e7237ed3ed59b2feade66c509a6804d8362.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIiwKICAiQmxvY2tlZCBzY3JpcHQgZXhlY3V0aW9uIGluICdhYm91dDpzcmNkb2MnIGJlY2F1c2UgdGhlIGRvY3VtZW50J3MgZnJhbWUgaXMgc2FuZGJveGVkIGFuZCB0aGUgJ2FsbG93LXNjcmlwdHMnIHBlcm1pc3Npb24gaXMgbm90IHNldC4iCl0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-3c9751a1415002743a9f",
+          "file": "e2e.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "03 · HTTPS muestra datos en el extremo y los protege en tránsito",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:44.856Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "encrypted",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-chrome-1366x768\\attachments\\encrypted-1427ef6a190ae64d2eaa0e81c02f35d6821b9c9b.png"
+                    },
+                    {
+                      "name": "03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-chrome-1366x768\\attachments\\03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito-e4f30c0a954ef88e94419ea8ec73e7e223be0603.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-e9c13898cb55b695c3be",
+          "file": "e2e.spec.ts",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "04 · DNS repite la consulta desde la caché y muestra TTL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3170,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:44.856Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-04-·-DNS-repite-la-consulta-desde-la-caché-y-muestra-TTL-chrome-1366x768\\attachments\\04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl-48c47974eb9264d8e63f5c9c656162e072a129a5.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-388606cfbb18b647b737",
+          "file": "e2e.spec.ts",
+          "line": 137,
+          "column": 1
+        },
+        {
+          "title": "05 · SMTP entrega y el mismo correo se lee con IMAP y POP3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 41565,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:47.196Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "mail",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-chrome-1366x768\\attachments\\mail-6bc74f18e4804bcfc9dd207d3cbf68ab8d36f5e5.png"
+                    },
+                    {
+                      "name": "05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-chrome-1366x768\\attachments\\05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3-308105c77c320436ef3a892b230df1a5f52edc78.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-17685e700654df9f7d35",
+          "file": "e2e.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "06 · FTP descarga y SFTP sube el contenido visible del archivo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 19253,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:48.448Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "files",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-chrome-1366x768\\attachments\\files-2298938c559077ae27d0c2f0655951979bc83712.png"
+                    },
+                    {
+                      "name": "06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-chrome-1366x768\\attachments\\06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo-fe2aa1c4ff758e497b31d40a28d84c16a3e492b0.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-1f18b35798fd18369488",
+          "file": "e2e.spec.ts",
+          "line": 163,
+          "column": 1
+        },
+        {
+          "title": "07 · SSH y Telnet comparten resultados con distinta protección",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 11006,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:50.549Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-07-·-SSH-y-Telnet-comp-0e7e0-dos-con-distinta-protección-chrome-1366x768\\attachments\\07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion-620e41837b1b122544fcb91e528fcad6f5ec7c3d.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4940c768436e0df69a6f",
+          "file": "e2e.spec.ts",
+          "line": 180,
+          "column": 1
+        },
+        {
+          "title": "08 · SNMP devuelve identidad y contadores crecientes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4134,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:52.587Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "08-snmp-devuelve-identidad-y-contadores-crecientes",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-08-·-SNMP-devuelve-identidad-y-contadores-crecientes-chrome-1366x768\\attachments\\08-snmp-devuelve-identidad-y-contadores-crecientes-f75f44776f04e6c7f63e412e57e75960f8293697.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-ece5655aeb43c350f0ed",
+          "file": "e2e.spec.ts",
+          "line": 196,
+          "column": 1
+        },
+        {
+          "title": "09 · avanzar ejecuta un evento y la pausa mantiene el tiempo congelado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1483,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:56.753Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-09-·-avanzar-ejecuta-u-4fb5d-antiene-el-tiempo-congelado-chrome-1366x768\\attachments\\09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado-47e0cc635f2ede3669965c54b12c99fcda590e2c.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-b76f1e30afa9b5401c92",
+          "file": "e2e.spec.ts",
+          "line": 211,
+          "column": 1
+        },
+        {
+          "title": "10 · una puerta de enlace incorrecta rompe la ruta y corregirla recupera el flujo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5613,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:48:58.261Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-10-·-una-puerta-de-enl-7c651-orregirla-recupera-el-flujo-chrome-1366x768\\attachments\\10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo-05412cf308bd96337b6ed3bacaa00db957121b7b.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-216410cd444336d881b1",
+          "file": "e2e.spec.ts",
+          "line": 232,
+          "column": 1
+        },
+        {
+          "title": "11 · un servicio caído conserva IP y se recupera al corregir el fallo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6591,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:01.577Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-11-·-un-servicio-caído-ac513-cupera-al-corregir-el-fallo-chrome-1366x768\\attachments\\11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo-b5a5aa73fe526c74ca81d1f135f5dbca970db9e6.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-1d6a97ef7cfd2a0378da",
+          "file": "e2e.spec.ts",
+          "line": 246,
+          "column": 1
+        },
+        {
+          "title": "12 · exportar importar y recargar conserva archivos de aplicación",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 17084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:03.908Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-12-·-exportar-importar-0ee59-erva-archivos-de-aplicación-chrome-1366x768\\attachments\\12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion-4c2dabbfc4a1b851fdc22ebf318e1e2785a563cd.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d8207901db3464f87309",
+          "file": "e2e.spec.ts",
+          "line": 259,
+          "column": 1
+        },
+        {
+          "title": "13 · consola con ayuda historial autocompletado y rechazo de órdenes externas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3248,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:07.738Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-13-·-consola-con-ayuda-20b26-rechazo-de-órdenes-externas-chrome-1366x768\\attachments\\13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas-905436eeab9b0dbc93ccfd1e59f706f480ad75ef.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-92ce83e65b4c85e8fd69",
+          "file": "e2e.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "14 · los seis escenarios funcionan con Internet bloqueado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 33235,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:08.192Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "14-los-seis-escenarios-funcionan-con-internet-bloqueado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-14-·-los-seis-escenari-6894a-onan-con-Internet-bloqueado-chrome-1366x768\\attachments\\14-los-seis-escenarios-funcionan-con-internet-bloqueado-facb4d30a617eb072e4a951774f9748d14d1c6a9.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4952acf916b7baaf1115",
+          "file": "e2e.spec.ts",
+          "line": 307,
+          "column": 1
+        },
+        {
+          "title": "15 · modo presentación ofrece una guía visual navegable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2001,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:11.032Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-chrome-1366x768\\attachments\\presentation-6298006a18a3bb3724f13ec5b1b8ac6515b346e7.png"
+                    },
+                    {
+                      "name": "15-modo-presentacion-ofrece-una-guia-visual-navegable",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-chrome-1366x768\\attachments\\15-modo-presentacion-ofrece-una-guia-visual-navegable-782c14b2118a62ca6a1142261e1c978836262b36.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-ab8ca230a50b9cf02d44",
+          "file": "e2e.spec.ts",
+          "line": 324,
+          "column": 1
+        },
+        {
+          "title": "16 · el paquete se desplaza sobre el enlace y queda visible al pausar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:13.054Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "traffic-motion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-chrome-1366x768\\attachments\\traffic-motion-5ad074d47ab16c9638f616dbec486bdf65c922ce.png"
+                    },
+                    {
+                      "name": "16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-chrome-1366x768\\attachments\\16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar-484df607c5ca99643d538a0a80c09456d0fd120c.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-656770c69dc90712df3a",
+          "file": "e2e.spec.ts",
+          "line": 339,
+          "column": 1
+        },
+        {
+          "title": "17 · un fallo HTTP persiste al recargar y puede desactivarse después",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6831,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:14.988Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-17-·-un-fallo-HTTP-per-b4993--puede-desactivarse-después-chrome-1366x768\\attachments\\17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues-16c5eb6d337e52af971d258387cf0ba71081c555.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIgpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-8c6eec1a8ed31d23f7fd",
+          "file": "e2e.spec.ts",
+          "line": 366,
+          "column": 1
+        },
+        {
+          "title": "18 · crear configurar conectar y eliminar un servidor funciona desde el editor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5227,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:21.015Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "editor-connected",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-chrome-1366x768\\attachments\\editor-connected-c1e22ddb9e13e3e58e536640936de96deba56752.png"
+                    },
+                    {
+                      "name": "18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-chrome-1366x768\\attachments\\18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor-95cd1ff153ad8ff69eeee2acd40738efa1c2b9ed.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-7bb8ca75c859e2102fc5",
+          "file": "e2e.spec.ts",
+          "line": 394,
+          "column": 1
+        },
+        {
+          "title": "19 · la guía ocupa el panel inferior y permite volver a la consola",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1366x768",
+              "projectName": "chrome-1366x768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:21.840Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation-guide-layout",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-chrome-1366x768\\attachments\\presentation-guide-layout-9fa126365407be2bac114eeb40ffb0a2ffaad5d2.png"
+                    },
+                    {
+                      "name": "19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-chrome-1366x768\\attachments\\19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola-edfe3ff4050bb94d48fe1512c32341d26c53d429.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-83a77931ac30b2bc62dc",
+          "file": "e2e.spec.ts",
+          "line": 430,
+          "column": 1
+        },
+        {
+          "title": "01 · laboratorio inicial legible sin errores ni desbordamiento",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:24.994Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "initial",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-chrome-1920x1080\\attachments\\initial-3e59ddd1e00b068efa78fe43f70cc5e688276b7a.png"
+                    },
+                    {
+                      "name": "01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-chrome-1920x1080\\attachments\\01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento-d950399d71d381b380c40ef074a0beeec0171d4f.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-a2f8352d554cdf6f64ef",
+          "file": "e2e.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "02 · DNS resuelve y HTTP entrega una página real",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:27.284Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "web",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-chrome-1920x1080\\attachments\\web-3271b556da0242a72d0021475802c84c8fb19b1c.png"
+                    },
+                    {
+                      "name": "02-dns-resuelve-y-http-entrega-una-pagina-real",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-chrome-1920x1080\\attachments\\02-dns-resuelve-y-http-entrega-una-pagina-real-8666b20f99c0327661c5bfd93ec3170b8b305851.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIiwKICAiQmxvY2tlZCBzY3JpcHQgZXhlY3V0aW9uIGluICdhYm91dDpzcmNkb2MnIGJlY2F1c2UgdGhlIGRvY3VtZW50J3MgZnJhbWUgaXMgc2FuZGJveGVkIGFuZCB0aGUgJ2FsbG93LXNjcmlwdHMnIHBlcm1pc3Npb24gaXMgbm90IHNldC4iCl0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-172b0fbf0c57475ce429",
+          "file": "e2e.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "03 · HTTPS muestra datos en el extremo y los protege en tránsito",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6780,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:26.918Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "encrypted",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-chrome-1920x1080\\attachments\\encrypted-b437e1b3ab233fe4dc45c2240ffb253136a10d74.png"
+                    },
+                    {
+                      "name": "03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-chrome-1920x1080\\attachments\\03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito-65c007875805c21e9cadb5defb9c2021d9153e19.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-abd1ac2e939798ab784e",
+          "file": "e2e.spec.ts",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "04 · DNS repite la consulta desde la caché y muestra TTL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2837,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:29.870Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-04-·-DNS-repite-la-consulta-desde-la-caché-y-muestra-TTL-chrome-1920x1080\\attachments\\04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl-cbf38b2003ac0a04681d8e2fd4282fcd0d325d1e.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-51970e8ee4a4ea446cb3",
+          "file": "e2e.spec.ts",
+          "line": 137,
+          "column": 1
+        },
+        {
+          "title": "05 · SMTP entrega y el mismo correo se lee con IMAP y POP3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 41867,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:32.558Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "mail",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-chrome-1920x1080\\attachments\\mail-05a141bbc370a4244988f6e4c4cf999f441d7be7.png"
+                    },
+                    {
+                      "name": "05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-chrome-1920x1080\\attachments\\05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3-3e6d3a50f3ec67891ae5bda4355d503bca82fca6.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-ed730ef9e0bd7d127e1d",
+          "file": "e2e.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "06 · FTP descarga y SFTP sube el contenido visible del archivo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:33.093Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "files",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-chrome-1920x1080\\attachments\\files-6a6394172e0386586f4153543f16dceac1aff634.png"
+                    },
+                    {
+                      "name": "06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-chrome-1920x1080\\attachments\\06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo-c6e472ee086d7ef15c40e35c9ec306944223d89d.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-3de5945ee778d39d9c90",
+          "file": "e2e.spec.ts",
+          "line": 163,
+          "column": 1
+        },
+        {
+          "title": "07 · SSH y Telnet comparten resultados con distinta protección",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 11537,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:33.728Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-07-·-SSH-y-Telnet-comp-0e7e0-dos-con-distinta-protección-chrome-1920x1080\\attachments\\07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion-bb7e8c24454d90f8de4e7909ffdad4a040e222fd.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-9d763a3f9cec49faa220",
+          "file": "e2e.spec.ts",
+          "line": 180,
+          "column": 1
+        },
+        {
+          "title": "08 · SNMP devuelve identidad y contadores crecientes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4943,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:42.597Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "08-snmp-devuelve-identidad-y-contadores-crecientes",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-08-·-SNMP-devuelve-identidad-y-contadores-crecientes-chrome-1920x1080\\attachments\\08-snmp-devuelve-identidad-y-contadores-crecientes-4d11e3fdaf4946f8e4941f0a087878cdb5cfbeca.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-512ef6d5e0212838dfdc",
+          "file": "e2e.spec.ts",
+          "line": 196,
+          "column": 1
+        },
+        {
+          "title": "09 · avanzar ejecuta un evento y la pausa mantiene el tiempo congelado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1661,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:45.290Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-09-·-avanzar-ejecuta-u-4fb5d-antiene-el-tiempo-congelado-chrome-1920x1080\\attachments\\09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado-9645997edab4e4d817d1290e4bb3521de9a33267.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-de8b49147a6bc86fb468",
+          "file": "e2e.spec.ts",
+          "line": 211,
+          "column": 1
+        },
+        {
+          "title": "10 · una puerta de enlace incorrecta rompe la ruta y corregirla recupera el flujo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5851,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:46.975Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-10-·-una-puerta-de-enl-7c651-orregirla-recupera-el-flujo-chrome-1920x1080\\attachments\\10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo-8f02795498de4bc13569c30b8e7e5565886b2df5.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-2a097b6084b2a133f388",
+          "file": "e2e.spec.ts",
+          "line": 232,
+          "column": 1
+        },
+        {
+          "title": "11 · un servicio caído conserva IP y se recupera al corregir el fallo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6516,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:47.967Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-11-·-un-servicio-caído-ac513-cupera-al-corregir-el-fallo-chrome-1920x1080\\attachments\\11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo-3003219158dda573f7fd482f7376dcb50696087a.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-61538ab8ff2149e0df30",
+          "file": "e2e.spec.ts",
+          "line": 246,
+          "column": 1
+        },
+        {
+          "title": "12 · exportar importar y recargar conserva archivos de aplicación",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:52.333Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-12-·-exportar-importar-0ee59-erva-archivos-de-aplicación-chrome-1920x1080\\attachments\\12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion-7e6a9a42f111e9825510bf63f8d263a3244c88da.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-630517d0c5a51ff52693",
+          "file": "e2e.spec.ts",
+          "line": 259,
+          "column": 1
+        },
+        {
+          "title": "13 · consola con ayuda historial autocompletado y rechazo de órdenes externas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:52.845Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-13-·-consola-con-ayuda-20b26-rechazo-de-órdenes-externas-chrome-1920x1080\\attachments\\13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas-54e437fdea58a84223ceef3a248d033ced0c9840.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4d8aebde37e7e3ad211e",
+          "file": "e2e.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "14 · los seis escenarios funcionan con Internet bloqueado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 31873,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:54.525Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "14-los-seis-escenarios-funcionan-con-internet-bloqueado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-14-·-los-seis-escenari-6894a-onan-con-Internet-bloqueado-chrome-1920x1080\\attachments\\14-los-seis-escenarios-funcionan-con-internet-bloqueado-14ad14b4505081e7d0b2ca26232d251aac118315.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-b47b08b64cd77d20b1c0",
+          "file": "e2e.spec.ts",
+          "line": 307,
+          "column": 1
+        },
+        {
+          "title": "15 · modo presentación ofrece una guía visual navegable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1954,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:55.494Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-chrome-1920x1080\\attachments\\presentation-e9e848ec2edc8c64e9e14b2a8253f93346249b7c.png"
+                    },
+                    {
+                      "name": "15-modo-presentacion-ofrece-una-guia-visual-navegable",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-chrome-1920x1080\\attachments\\15-modo-presentacion-ofrece-una-guia-visual-navegable-2a1486efdb1434afc80f66acb07d44a6c77a933a.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-fbeff048b63934a55127",
+          "file": "e2e.spec.ts",
+          "line": 324,
+          "column": 1
+        },
+        {
+          "title": "16 · el paquete se desplaza sobre el enlace y queda visible al pausar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1672,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:57.474Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "traffic-motion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-chrome-1920x1080\\attachments\\traffic-motion-bd79e3dd4089586bab6c128c6d8c74dfef1c4da9.png"
+                    },
+                    {
+                      "name": "16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-chrome-1920x1080\\attachments\\16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar-a741954524142d6796eff9664936dd450760233b.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-be7d5ead065007ab8631",
+          "file": "e2e.spec.ts",
+          "line": 339,
+          "column": 1
+        },
+        {
+          "title": "17 · un fallo HTTP persiste al recargar y puede desactivarse después",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6298,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:49:59.175Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-17-·-un-fallo-HTTP-per-b4993--puede-desactivarse-después-chrome-1920x1080\\attachments\\17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues-1dccdbf21c3a48438791b6017b872c217db532a8.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIgpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-63144d9e79374ec85193",
+          "file": "e2e.spec.ts",
+          "line": 366,
+          "column": 1
+        },
+        {
+          "title": "18 · crear configurar conectar y eliminar un servidor funciona desde el editor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 4704,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:05.529Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "editor-connected",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-chrome-1920x1080\\attachments\\editor-connected-0399ee89940808cbf631686b136f5c6f6d65f6ec.png"
+                    },
+                    {
+                      "name": "18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-chrome-1920x1080\\attachments\\18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor-33ce3c03aa741462a62854265a7cacc644de6455.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-ff3a7807b9c4ee4c1a8a",
+          "file": "e2e.spec.ts",
+          "line": 394,
+          "column": 1
+        },
+        {
+          "title": "19 · la guía ocupa el panel inferior y permite volver a la consola",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome-1920x1080",
+              "projectName": "chrome-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1870,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:08.690Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation-guide-layout",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-chrome-1920x1080\\attachments\\presentation-guide-layout-bb55fca6bd9f34d58f7752eefeeb59563bcab7be.png"
+                    },
+                    {
+                      "name": "19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-chrome-1920x1080\\attachments\\19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola-cf2ec154f222248116080bea7343756cc553424b.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-60e634b6f8e39ff8e589",
+          "file": "e2e.spec.ts",
+          "line": 430,
+          "column": 1
+        },
+        {
+          "title": "01 · laboratorio inicial legible sin errores ni desbordamiento",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1806,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:11.278Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "initial",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-edge-1366x768\\attachments\\initial-8396f104069e25617b508e16b946ae248752a6c7.png"
+                    },
+                    {
+                      "name": "01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-edge-1366x768\\attachments\\01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento-2da358d9e4953af7d219f375aa26a52088cd98ba.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-22a273a98f84cedda0ae",
+          "file": "e2e.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "02 · DNS resuelve y HTTP entrega una página real",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5672,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:11.438Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "web",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-edge-1366x768\\attachments\\web-9114e95d5f91a069cab393e18502ae4cad7201f8.png"
+                    },
+                    {
+                      "name": "02-dns-resuelve-y-http-entrega-una-pagina-real",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-edge-1366x768\\attachments\\02-dns-resuelve-y-http-entrega-una-pagina-real-70da3446cad8df47e5c4b9f1a9da9237a1606287.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIiwKICAiQmxvY2tlZCBzY3JpcHQgZXhlY3V0aW9uIGluICdhYm91dDpzcmNkb2MnIGJlY2F1c2UgdGhlIGRvY3VtZW50J3MgZnJhbWUgaXMgc2FuZGJveGVkIGFuZCB0aGUgJ2FsbG93LXNjcmlwdHMnIHBlcm1pc3Npb24gaXMgbm90IHNldC4iCl0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-f86dc4fbc764510cb2af",
+          "file": "e2e.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "03 · HTTPS muestra datos en el extremo y los protege en tránsito",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 6725,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:13.458Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "encrypted",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-edge-1366x768\\attachments\\encrypted-3b812c32fce8a88c5c4262aa7b79198100d593e7.png"
+                    },
+                    {
+                      "name": "03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-edge-1366x768\\attachments\\03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito-4e922e285f536f28d35de62fe914b389e2c5a707.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-8f3efbe6d71c0281954f",
+          "file": "e2e.spec.ts",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "04 · DNS repite la consulta desde la caché y muestra TTL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2796,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:15.931Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-04-·-DNS-repite-la-consulta-desde-la-caché-y-muestra-TTL-edge-1366x768\\attachments\\04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl-05ba1c551a48a47b8b23dcf933a96188f5269516.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-12782cb1ab6fd86d1c89",
+          "file": "e2e.spec.ts",
+          "line": 137,
+          "column": 1
+        },
+        {
+          "title": "05 · SMTP entrega y el mismo correo se lee con IMAP y POP3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 41402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:17.804Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "mail",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-edge-1366x768\\attachments\\mail-add632fc329d6eacbf0c495547b55538140120e1.png"
+                    },
+                    {
+                      "name": "05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-edge-1366x768\\attachments\\05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3-0e32e18fbc53dcf0503052230d0d23a8831ddbdf.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-23fa57954b4cf58648a5",
+          "file": "e2e.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "06 · FTP descarga y SFTP sube el contenido visible del archivo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 19426,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:19.269Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "files",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-edge-1366x768\\attachments\\files-6094d143e237418caf8ad6dd15618364fa41a358.png"
+                    },
+                    {
+                      "name": "06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-edge-1366x768\\attachments\\06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo-676d72ece723f0993b1ba851e26209778ed40e13.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-f6690bd8c37038a3fc83",
+          "file": "e2e.spec.ts",
+          "line": 163,
+          "column": 1
+        },
+        {
+          "title": "07 · SSH y Telnet comparten resultados con distinta protección",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 11033,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:20.209Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-07-·-SSH-y-Telnet-comp-0e7e0-dos-con-distinta-protección-edge-1366x768\\attachments\\07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion-3a8fb83bf74d215aac175d0f7655b83474002d89.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-12f61b4318c014f76c45",
+          "file": "e2e.spec.ts",
+          "line": 180,
+          "column": 1
+        },
+        {
+          "title": "08 · SNMP devuelve identidad y contadores crecientes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4794,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:27.420Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "08-snmp-devuelve-identidad-y-contadores-crecientes",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-08-·-SNMP-devuelve-identidad-y-contadores-crecientes-edge-1366x768\\attachments\\08-snmp-devuelve-identidad-y-contadores-crecientes-64d8c2a1a471dbd459c8ee7cda0aaaf23c44b427.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-b1dde0baecf235ae5d45",
+          "file": "e2e.spec.ts",
+          "line": 196,
+          "column": 1
+        },
+        {
+          "title": "09 · avanzar ejecuta un evento y la pausa mantiene el tiempo congelado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1197,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:31.269Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-09-·-avanzar-ejecuta-u-4fb5d-antiene-el-tiempo-congelado-edge-1366x768\\attachments\\09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado-54d2d6073141b9fde9dfffc42ba4d1904b04c7ae.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-06592f987cfc206ee874",
+          "file": "e2e.spec.ts",
+          "line": 211,
+          "column": 1
+        },
+        {
+          "title": "10 · una puerta de enlace incorrecta rompe la ruta y corregirla recupera el flujo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5571,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:32.494Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-10-·-una-puerta-de-enl-7c651-orregirla-recupera-el-flujo-edge-1366x768\\attachments\\10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo-cb2c82b43f242f38707cffecca326124a4decf00.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-32ee45cb075ff74e6359",
+          "file": "e2e.spec.ts",
+          "line": 232,
+          "column": 1
+        },
+        {
+          "title": "11 · un servicio caído conserva IP y se recupera al corregir el fallo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6215,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:32.620Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-11-·-un-servicio-caído-ac513-cupera-al-corregir-el-fallo-edge-1366x768\\attachments\\11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo-c40704be66db53d1acef5370db9faa127c367b39.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4aa5ab6e81dc49963ef7",
+          "file": "e2e.spec.ts",
+          "line": 246,
+          "column": 1
+        },
+        {
+          "title": "12 · exportar importar y recargar conserva archivos de aplicación",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 16277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:38.080Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-12-·-exportar-importar-0ee59-erva-archivos-de-aplicación-edge-1366x768\\attachments\\12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion-ba692340842521e9df68c55fe99f0e6ef5433904.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-227e37551ac92fe05f16",
+          "file": "e2e.spec.ts",
+          "line": 259,
+          "column": 1
+        },
+        {
+          "title": "13 · consola con ayuda historial autocompletado y rechazo de órdenes externas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2358,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:38.715Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-13-·-consola-con-ayuda-20b26-rechazo-de-órdenes-externas-edge-1366x768\\attachments\\13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas-638012a35870310441be2b9064b9b964004de838.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-c7b781a0780e649168c9",
+          "file": "e2e.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "14 · los seis escenarios funcionan con Internet bloqueado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 31656,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:38.860Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "14-los-seis-escenarios-funcionan-con-internet-bloqueado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-14-·-los-seis-escenari-6894a-onan-con-Internet-bloqueado-edge-1366x768\\attachments\\14-los-seis-escenarios-funcionan-con-internet-bloqueado-8c29beacffefb434374a8e0f2218c06126a76735.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-786bd0addbdc397a9620",
+          "file": "e2e.spec.ts",
+          "line": 307,
+          "column": 1
+        },
+        {
+          "title": "15 · modo presentación ofrece una guía visual navegable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1680,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:41.090Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-edge-1366x768\\attachments\\presentation-62a2f1e27fd463a7fbe45a5467ace87aebf2d5bc.png"
+                    },
+                    {
+                      "name": "15-modo-presentacion-ofrece-una-guia-visual-navegable",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-edge-1366x768\\attachments\\15-modo-presentacion-ofrece-una-guia-visual-navegable-2e3b14a472196d1af8a821ba92ee511dc82ef38a.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-c41a5316b198017fb646",
+          "file": "e2e.spec.ts",
+          "line": 324,
+          "column": 1
+        },
+        {
+          "title": "16 · el paquete se desplaza sobre el enlace y queda visible al pausar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:42.794Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "traffic-motion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-edge-1366x768\\attachments\\traffic-motion-3fe06543a5d094a4cb863d967cbe98968190ad43.png"
+                    },
+                    {
+                      "name": "16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-edge-1366x768\\attachments\\16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar-18160d0268dd1d485689968ccc57fcb2305fb5d3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-9259cc8e6130001697c5",
+          "file": "e2e.spec.ts",
+          "line": 339,
+          "column": 1
+        },
+        {
+          "title": "17 · un fallo HTTP persiste al recargar y puede desactivarse después",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:44.540Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-17-·-un-fallo-HTTP-per-b4993--puede-desactivarse-después-edge-1366x768\\attachments\\17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues-7a00bc1ea88e6df52c94388545e03225e39382af.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIgpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-b7ecb640928f3421aae0",
+          "file": "e2e.spec.ts",
+          "line": 366,
+          "column": 1
+        },
+        {
+          "title": "18 · crear configurar conectar y eliminar un servidor funciona desde el editor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:50.872Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "editor-connected",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-edge-1366x768\\attachments\\editor-connected-ad6d41993b1ff27974dc896537341b32079c478f.png"
+                    },
+                    {
+                      "name": "18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-edge-1366x768\\attachments\\18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor-82cdbed2ba75ca7468add7f75c1aca9272d67842.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d60adb625e553c48b379",
+          "file": "e2e.spec.ts",
+          "line": 394,
+          "column": 1
+        },
+        {
+          "title": "19 · la guía ocupa el panel inferior y permite volver a la consola",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1366x768",
+              "projectName": "edge-1366x768",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1565,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:54.376Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation-guide-layout",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-edge-1366x768\\attachments\\presentation-guide-layout-724a6930df1fe87cfe34e949cbc6dd29fa81b4e2.png"
+                    },
+                    {
+                      "name": "19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-edge-1366x768\\attachments\\19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola-195055805d92cdb3b7081c613563a914140dfaff.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-e2777b0feec00ab3b4da",
+          "file": "e2e.spec.ts",
+          "line": 430,
+          "column": 1
+        },
+        {
+          "title": "01 · laboratorio inicial legible sin errores ni desbordamiento",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1688,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:56.365Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "initial",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-edge-1920x1080\\attachments\\initial-06653ca6642e3fdaa3b67a463962ef2b6b31b3a1.png"
+                    },
+                    {
+                      "name": "01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-01-·-laboratorio-inici-0c467-n-errores-ni-desbordamiento-edge-1920x1080\\attachments\\01-laboratorio-inicial-legible-sin-errores-ni-desbordamiento-83959b72dd8b865e97486f12694628a777b91824.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-5ba1d2654c2262be02f6",
+          "file": "e2e.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "02 · DNS resuelve y HTTP entrega una página real",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5369,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:57.309Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "web",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-edge-1920x1080\\attachments\\web-01b65c7bfb61768f00a10727a9fe589feea527f4.png"
+                    },
+                    {
+                      "name": "02-dns-resuelve-y-http-entrega-una-pagina-real",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-02-·-DNS-resuelve-y-HTTP-entrega-una-página-real-edge-1920x1080\\attachments\\02-dns-resuelve-y-http-entrega-una-pagina-real-5341f804a53d90c2de36b67d57b2d8e1a3cd524f.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIiwKICAiQmxvY2tlZCBzY3JpcHQgZXhlY3V0aW9uIGluICdhYm91dDpzcmNkb2MnIGJlY2F1c2UgdGhlIGRvY3VtZW50J3MgZnJhbWUgaXMgc2FuZGJveGVkIGFuZCB0aGUgJ2FsbG93LXNjcmlwdHMnIHBlcm1pc3Npb24gaXMgbm90IHNldC4iCl0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-f4ca023054af6e28df8e",
+          "file": "e2e.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "03 · HTTPS muestra datos en el extremo y los protege en tránsito",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6674,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:50:58.430Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "encrypted",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-edge-1920x1080\\attachments\\encrypted-17f88c74716cfbd4472dc8c2a6868ce2add30da0.png"
+                    },
+                    {
+                      "name": "03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-03-·-HTTPS-muestra-dat-d8cfb-o-y-los-protege-en-tránsito-edge-1920x1080\\attachments\\03-https-muestra-datos-en-el-extremo-y-los-protege-en-transito-f57b6e8a2e371fd980fd92478398ea2c9d44239a.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-a1d4c5afde4f8587e73d",
+          "file": "e2e.spec.ts",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "04 · DNS repite la consulta desde la caché y muestra TTL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2770,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:00.519Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-04-·-DNS-repite-la-consulta-desde-la-caché-y-muestra-TTL-edge-1920x1080\\attachments\\04-dns-repite-la-consulta-desde-la-cache-y-muestra-ttl-b5be9b0df5a4a99dc8d59e5ad71b5a6361a947d9.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-aa764fa295d5b7d82099",
+          "file": "e2e.spec.ts",
+          "line": 137,
+          "column": 1
+        },
+        {
+          "title": "05 · SMTP entrega y el mismo correo se lee con IMAP y POP3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 40998,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:03.144Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "mail",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-edge-1920x1080\\attachments\\mail-811732756f9afc2f41c696a0812e3c444a35ca0c.png"
+                    },
+                    {
+                      "name": "05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-05-·-SMTP-entrega-y-el-9081e-rreo-se-lee-con-IMAP-y-POP3-edge-1920x1080\\attachments\\05-smtp-entrega-y-el-mismo-correo-se-lee-con-imap-y-pop3-2cb664b9a2bfdaccc08c220fc537a1ca49bade59.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-1682e282e6255eae72e7",
+          "file": "e2e.spec.ts",
+          "line": 147,
+          "column": 1
+        },
+        {
+          "title": "06 · FTP descarga y SFTP sube el contenido visible del archivo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18958,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:03.684Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "files",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-edge-1920x1080\\attachments\\files-c128391791a4c407a6c401ed8d3351c2377bcbe7.png"
+                    },
+                    {
+                      "name": "06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-06-·-FTP-descarga-y-SF-44137-ntenido-visible-del-archivo-edge-1920x1080\\attachments\\06-ftp-descarga-y-sftp-sube-el-contenido-visible-del-archivo-7bdcb968c8ecdd2b95b5fd501d352f8ef5d03f5e.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d87212bbb20237720756",
+          "file": "e2e.spec.ts",
+          "line": 163,
+          "column": 1
+        },
+        {
+          "title": "07 · SSH y Telnet comparten resultados con distinta protección",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 10949,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:05.129Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-07-·-SSH-y-Telnet-comp-0e7e0-dos-con-distinta-protección-edge-1920x1080\\attachments\\07-ssh-y-telnet-comparten-resultados-con-distinta-proteccion-f650e82c5ffd9792eec16f570289ed8688e94a2d.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-41fa6fb755e46a722b05",
+          "file": "e2e.spec.ts",
+          "line": 180,
+          "column": 1
+        },
+        {
+          "title": "08 · SNMP devuelve identidad y contadores crecientes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4445,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:11.473Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "08-snmp-devuelve-identidad-y-contadores-crecientes",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-08-·-SNMP-devuelve-identidad-y-contadores-crecientes-edge-1920x1080\\attachments\\08-snmp-devuelve-identidad-y-contadores-crecientes-b6eb0ad38fbd12b64c6ea47ffec032f8868be2e0.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-9782e32b430eb24d5b49",
+          "file": "e2e.spec.ts",
+          "line": 196,
+          "column": 1
+        },
+        {
+          "title": "09 · avanzar ejecuta un evento y la pausa mantiene el tiempo congelado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:16.109Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-09-·-avanzar-ejecuta-u-4fb5d-antiene-el-tiempo-congelado-edge-1920x1080\\attachments\\09-avanzar-ejecuta-un-evento-y-la-pausa-mantiene-el-tiempo-congelado-bd195f6d9aad41016446a63771d049e6c6e69ece.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d50709f94235fefadf81",
+          "file": "e2e.spec.ts",
+          "line": 211,
+          "column": 1
+        },
+        {
+          "title": "10 · una puerta de enlace incorrecta rompe la ruta y corregirla recupera el flujo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:16.298Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-10-·-una-puerta-de-enl-7c651-orregirla-recupera-el-flujo-edge-1920x1080\\attachments\\10-una-puerta-de-enlace-incorrecta-rompe-la-ruta-y-corregirla-recupera-el-flujo-1ccd7522fe0b60be1fd11eb270bc55be3aae0b90.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-c16327b913f2a78c3450",
+          "file": "e2e.spec.ts",
+          "line": 232,
+          "column": 1
+        },
+        {
+          "title": "11 · un servicio caído conserva IP y se recupera al corregir el fallo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:17.665Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-11-·-un-servicio-caído-ac513-cupera-al-corregir-el-fallo-edge-1920x1080\\attachments\\11-un-servicio-caido-conserva-ip-y-se-recupera-al-corregir-el-fallo-ac8aa918ef64513a9067af8b6fb83ebbf1d716b7.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-0a89583b9e1bf7d1b38c",
+          "file": "e2e.spec.ts",
+          "line": 246,
+          "column": 1
+        },
+        {
+          "title": "12 · exportar importar y recargar conserva archivos de aplicación",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 16520,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:21.964Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-12-·-exportar-importar-0ee59-erva-archivos-de-aplicación-edge-1920x1080\\attachments\\12-exportar-importar-y-recargar-conserva-archivos-de-aplicacion-93a17ed374c9b0c2df2d0a741fa191b140a58059.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d86e9163603115329a4a",
+          "file": "e2e.spec.ts",
+          "line": 259,
+          "column": 1
+        },
+        {
+          "title": "13 · consola con ayuda historial autocompletado y rechazo de órdenes externas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2552,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:22.669Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-13-·-consola-con-ayuda-20b26-rechazo-de-órdenes-externas-edge-1920x1080\\attachments\\13-consola-con-ayuda-historial-autocompletado-y-rechazo-de-ordenes-externas-c8115a3d86a946a5f797123e075777a7d337bfce.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4aecd3f2ba7af9495148",
+          "file": "e2e.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "14 · los seis escenarios funcionan con Internet bloqueado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 31005,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:24.010Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "14-los-seis-escenarios-funcionan-con-internet-bloqueado",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-14-·-los-seis-escenari-6894a-onan-con-Internet-bloqueado-edge-1920x1080\\attachments\\14-los-seis-escenarios-funcionan-con-internet-bloqueado-fe2caf0804577541fee207f42e8a6a6b9013de44.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-cfdeef83d2be7c652599",
+          "file": "e2e.spec.ts",
+          "line": 307,
+          "column": 1
+        },
+        {
+          "title": "15 · modo presentación ofrece una guía visual navegable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1629,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:25.253Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-edge-1920x1080\\attachments\\presentation-41c9286ed718523fe83d9857f7eeefaf486afa1c.png"
+                    },
+                    {
+                      "name": "15-modo-presentacion-ofrece-una-guia-visual-navegable",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-15-·-modo-presentación-ofrece-una-guía-visual-navegable-edge-1920x1080\\attachments\\15-modo-presentacion-ofrece-una-guia-visual-navegable-3ca2548cd4c62a73dfd59ace798c3f57e53649be.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-4e94e09105a1a0e396d1",
+          "file": "e2e.spec.ts",
+          "line": 324,
+          "column": 1
+        },
+        {
+          "title": "16 · el paquete se desplaza sobre el enlace y queda visible al pausar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1527,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:26.900Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "traffic-motion",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-edge-1920x1080\\attachments\\traffic-motion-2c6374bdd963b6980cbd9dbecd1fc773c9696697.png"
+                    },
+                    {
+                      "name": "16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-16-·-el-paquete-se-des-5da21-e-y-queda-visible-al-pausar-edge-1920x1080\\attachments\\16-el-paquete-se-desplaza-sobre-el-enlace-y-queda-visible-al-pausar-7afb6b8a4eda0e95dd8781bf6ded344dcad545c3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-348c92e06a10c44c0262",
+          "file": "e2e.spec.ts",
+          "line": 339,
+          "column": 1
+        },
+        {
+          "title": "17 · un fallo HTTP persiste al recargar y puede desactivarse después",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:28.454Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-17-·-un-fallo-HTTP-per-b4993--puede-desactivarse-después-edge-1920x1080\\attachments\\17-un-fallo-http-persiste-al-recargar-y-puede-desactivarse-despues-c86b0a282c77c52c39046e89d4ad38b477c31711.png"
+                    },
+                    {
+                      "name": "diagnosticos-aislamiento-iframe",
+                      "contentType": "application/json",
+                      "body": "WwogICJCbG9ja2VkIHNjcmlwdCBleGVjdXRpb24gaW4gJ2Fib3V0OnNyY2RvYycgYmVjYXVzZSB0aGUgZG9jdW1lbnQncyBmcmFtZSBpcyBzYW5kYm94ZWQgYW5kIHRoZSAnYWxsb3ctc2NyaXB0cycgcGVybWlzc2lvbiBpcyBub3Qgc2V0LiIsCiAgIkJsb2NrZWQgc2NyaXB0IGV4ZWN1dGlvbiBpbiAnYWJvdXQ6c3JjZG9jJyBiZWNhdXNlIHRoZSBkb2N1bWVudCdzIGZyYW1lIGlzIHNhbmRib3hlZCBhbmQgdGhlICdhbGxvdy1zY3JpcHRzJyBwZXJtaXNzaW9uIGlzIG5vdCBzZXQuIgpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-7369a5450c6e5c5bb7cc",
+          "file": "e2e.spec.ts",
+          "line": 366,
+          "column": 1
+        },
+        {
+          "title": "18 · crear configurar conectar y eliminar un servidor funciona desde el editor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4318,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:35.121Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "editor-connected",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-edge-1920x1080\\attachments\\editor-connected-7023da0eb0953bfc66bb408c85304e8ff52af2d5.png"
+                    },
+                    {
+                      "name": "18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-18-·-crear-configurar--b29e9-or-funciona-desde-el-editor-edge-1920x1080\\attachments\\18-crear-configurar-conectar-y-eliminar-un-servidor-funciona-desde-el-editor-bdecac8dfc1ca917bc739790118526327144975c.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-d01ab7d921902246bd8a",
+          "file": "e2e.spec.ts",
+          "line": 394,
+          "column": 1
+        },
+        {
+          "title": "19 · la guía ocupa el panel inferior y permite volver a la consola",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge-1920x1080",
+              "projectName": "edge-1920x1080",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1517,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-16T14:51:38.505Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "presentation-guide-layout",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-edge-1920x1080\\attachments\\presentation-guide-layout-b62dc227c3a8591989b2b60230c4c0715c22c2a3.png"
+                    },
+                    {
+                      "name": "19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola",
+                      "contentType": "image/png",
+                      "path": "C:\\SistemasComunicacion\\evidence\\test-results\\e2e-19-·-la-guía-ocupa-el--55e16-permite-volver-a-la-consola-edge-1920x1080\\attachments\\19-la-guia-ocupa-el-panel-inferior-y-permite-volver-a-la-consola-cc7ace35b66001514b805450fe1e8d459f897aa9.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1c7859d981cc20c96be-27c6f41a3bc16a97786c",
+          "file": "e2e.spec.ts",
+          "line": 430,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-16T14:48:44.291Z",
+    "duration": 191052.385,
+    "expected": 76,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

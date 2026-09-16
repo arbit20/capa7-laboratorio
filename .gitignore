@@ -1,0 +1,15 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.demo.pid
+.local/
+.kilo/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+evidence/screenshots/*.png
+evidence/sandbox-diagnostic.png
